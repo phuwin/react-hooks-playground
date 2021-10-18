@@ -1,12 +1,12 @@
 
 import { useState, useContext } from 'react';
 import { Context } from './App';
-import useEffectExample from './useEffectExamples';
+// import useEffectExample from './useEffectExamples';
 
 function Counter() {
   const [count, setCount] = useState(0);
   const { countContext, setCountContext } = useContext(Context);
-  useEffectExample(count);
+  // useEffectExample(count);
   return (
     <>
       <h1>Counter</h1>  

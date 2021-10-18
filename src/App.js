@@ -1,14 +1,12 @@
 import './App.css';
-import Counter from './Counter';
-import React, { useState, createContext } from 'react';
-export const Context = createContext();
+import CounterReducer from './CounterReducer';
+import React from 'react';
 
 function App() {
-  const [countContext, setCountContext] = useState(0);
   return (
-    <Context.Provider value={{ countContext, setCountContext }}>
-      <Counter />
-    </Context.Provider>
+    <>
+      <CounterReducer />
+    </>
   );
 }
 

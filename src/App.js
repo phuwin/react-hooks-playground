@@ -1,11 +1,11 @@
 import './App.css';
-import CounterReducer from './CounterReducer';
 import React from 'react';
+import CounterUseCallback from './CounterUseCallback';
 
 function App() {
   return (
     <>
-      <CounterReducer />
+      <CounterUseCallback />
     </>
   );
 }

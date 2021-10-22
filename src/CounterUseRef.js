@@ -13,7 +13,7 @@ function CounterUseRef() {
     <>
       <h1>Counter Input</h1>  
       <p>{count}</p>
-      <input ref={inputRef} value="1"/>
+      <input ref={inputRef}/>
       <button onClick={() => { setCount(count + Number(inputRef.current.value)) }}>
         Increment
       </button>

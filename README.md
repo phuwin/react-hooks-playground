@@ -1,12 +1,12 @@
-# React Hoook 🪝 plaground
+# React Hoook 🪝 playground
 Checkout to the branches:
-- `useState` 
-- `useEffect`
-- `useContext`
-- `useReducer`
-- `useCallback`
-- `useMemo`
-- `useRef`
+- `git checkout useState` 
+- `git checkout useEffect`
+- `git checkout useContext`
+- `git checkout useReducer`
+- `git checkout useCallback`
+- `git checkout useMemo`
+- `git checkout useRef`
 
 ```js
 npm install

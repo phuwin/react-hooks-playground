@@ -19,9 +19,9 @@ function CounterUseCallback() {
     <>
       <h1>Counter usecallback</h1>
       <p>{count}</p>
-      <ButtonWithRender onClick={() => { setCount(count + 1) }}>
+      {/* <ButtonWithRender onClick={() => { setCount(count + 1) }}>
         Increment that rerender
-      </ButtonWithRender>
+      </ButtonWithRender> */}
       <ButtonWithRender onClick={onClickCallback}>
         Increment that doesn't rerender
       </ButtonWithRender>

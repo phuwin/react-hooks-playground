@@ -1,5 +1,6 @@
 import './App.css';
 import Counter from './Counter';
+import CounterClass from './CounterClass';
 import React, { useState, createContext } from 'react';
 export const Context = createContext();
 
@@ -8,6 +9,7 @@ function App() {
   return (
     <Context.Provider value={{ countContext, setCountContext }}>
       <Counter />
+      <CounterClass />
     </Context.Provider>
   );
 }

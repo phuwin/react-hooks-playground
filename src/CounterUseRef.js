@@ -17,7 +17,7 @@ function CounterUseRef() {
       <button onClick={() => { setCount(count + Number(inputRef.current.value)) }}>
         Increment
       </button>
-      <button onClick={() => {countRef.current++}}>
+      <button onClick={() => {countRef.current++; console.log('countref clicked')}}>
         Increase count ref
       </button>
     </>
